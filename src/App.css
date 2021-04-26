@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+
+/* .list-wrapper{
+  border: 2px solid black;
+  padding: 1em;
+  margin: .5em auto;
+  width: 500px;
+}
+.list-wrapper > span{
+  background-color: aliceblue;
+  padding: .5em;
+  border: 1px solid brown;
+  margin: 0 .2em;
+} */
