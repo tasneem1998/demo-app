@@ -3,6 +3,7 @@ import { Container, InputGroup, FormControl, Table } from "react-bootstrap"
 import { Link } from "react-router-dom"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faEdit, faSearch, faTrash } from '@fortawesome/free-solid-svg-icons'
+import NavBar from './NavBar'
 
 export default class RestaurantSearch extends Component {
     constructor(props) {
@@ -41,6 +42,7 @@ export default class RestaurantSearch extends Component {
         const { searchData, noData } = this.state
         return (
             <div>
+                <NavBar />
                 <h1>RestaurantSearch</h1>
                 {
                     <Container>

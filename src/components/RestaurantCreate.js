@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import NavBar from './NavBar'
 
 export default class RestaurantCreate extends Component {
     constructor(props) {
@@ -36,6 +37,7 @@ export default class RestaurantCreate extends Component {
     render() {
         return (
             <div>
+                <NavBar />
                 <h1>RestaurantCreate</h1>
                 <div>
                     <input 
